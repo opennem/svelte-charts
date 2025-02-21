@@ -1,6 +1,6 @@
 {
 	"name": "@openelectricity/svelte-charts",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"license": "MIT",
 	"description": "Reusable time series charts built with Svelte and LayerCake.",
 	"author": "Open Electricity",
@@ -12,7 +12,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/openelectricity/svelte-charts.git"
+		"url": "git+https://github.com/opennem/svelte-charts.git"
 	},
 	"scripts": {
 		"dev": "vite dev",
@@ -25,7 +25,8 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
-		"test": "npm run test:unit -- --run"
+		"test": "npm run test:unit -- --run",
+		"release": "npx changeset version"
 	},
 	"files": [
 		"dist",
@@ -45,10 +46,11 @@
 		}
 	},
 	"peerDependencies": {
-		"svelte": "^5.0.0",
-		"layercake": "^8.4.2"
+		"layercake": "^8.4.2",
+		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.28.1",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
 		"@sveltejs/adapter-auto": "^4.0.0",
