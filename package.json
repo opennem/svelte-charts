@@ -1,7 +1,19 @@
 {
-	"name": "svelte-charts",
+	"name": "@openelectricity/svelte-charts",
 	"version": "0.0.1",
 	"license": "MIT",
+	"description": "Reusable time series charts built with Svelte and LayerCake.",
+	"author": "Open Electricity",
+	"keywords": [
+		"svelte",
+		"charts",
+		"time series",
+		"layercake"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/openelectricity/svelte-charts.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
