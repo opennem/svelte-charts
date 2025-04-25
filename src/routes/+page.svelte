@@ -81,6 +81,33 @@
 	}
 </script>
 
-<div class="max-w-screen-lg mx-auto">
-	<StratumChart cxtKey={initChartOptions.key} {onmousemove} {onmouseout} {onpointerup} />
+<div class="min-h-screen bg-gray-50">
+	<header class="bg-white shadow-sm">
+		<div class="max-w-screen-lg mx-auto px-4 py-6">
+			<h1 class="text-3xl font-bold text-gray-900">Stratum Charts</h1>
+			<p class="mt-2 text-gray-600">A library of reusable charts for Svelte.</p>
+		</div>
+	</header>
+
+	<main class="max-w-screen-lg mx-auto px-4 py-8">
+		<div class="flex items-center justify-between mb-6 h-12">
+			<h2 class="text-xl font-semibold text-gray-900">Stacked Area/Line Chart with options</h2>
+			{#if chartCxt.focusTime}
+				<div class="flex items-center space-x-4">
+					<button
+						class="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+						on:click={() => {
+							chartCxt.focusTime = undefined;
+						}}
+					>
+						Reset View
+					</button>
+				</div>
+			{/if}
+		</div>
+
+		<div class="relative">
+			<StratumChart cxtKey={initChartOptions.key} {onmousemove} {onmouseout} {onpointerup} />
+		</div>
+	</main>
 </div>

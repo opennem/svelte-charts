@@ -44437,9 +44437,9 @@ const seriesLabels = {
 const xTicks = 8;
 
 const formatX = (/** @type {Date} */ d) =>
-	getFormattedDate(d, undefined, undefined, undefined, 'numeric');
+	getFormattedDate(d, undefined, 'numeric', 'short', 'numeric');
 
 const formatTick = (/** @type {Date} */ d) =>
-	getFormattedDate(d, undefined, undefined, undefined, 'numeric');
+	getFormattedDate(d, undefined, 'numeric', 'short', undefined);
 
 export { tsData, seriesNames, seriesColours, seriesLabels, xTicks, formatX, formatTick };
