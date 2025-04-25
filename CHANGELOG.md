@@ -1,5 +1,17 @@
 # @openelectricity/svelte-charts
 
+## 0.2.4
+
+### Patch Changes
+
+- bumping
+
+## 0.2.3
+
+### Patch Changes
+
+- bump again
+
 ## 0.2.2
 
 ### Patch Changes
