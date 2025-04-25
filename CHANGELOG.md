@@ -1,5 +1,11 @@
 # @openelectricity/svelte-charts
 
+## 0.2.5
+
+### Patch Changes
+
+- add clouflare adapter
+
 ## 0.2.4
 
 ### Patch Changes
