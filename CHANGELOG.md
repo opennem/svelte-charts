@@ -1,5 +1,11 @@
 # @openelectricity/svelte-charts
 
+## 0.2.6
+
+### Patch Changes
+
+- add node-version
+
 ## 0.2.5
 
 ### Patch Changes
