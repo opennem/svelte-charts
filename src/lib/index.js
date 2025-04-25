@@ -1,4 +1,4 @@
-// Reexport your entry components here
-import TestComponent from './TestComponent.svelte';
+import StratumChart from './StratumChart.svelte';
+import ChartStore from './stores/chart.svelte';
 
-export { TestComponent };
+export { StratumChart, ChartStore };
