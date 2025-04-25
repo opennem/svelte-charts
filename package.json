@@ -1,6 +1,6 @@
 {
 	"name": "@openelectricity/svelte-charts",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"license": "MIT",
 	"description": "Reusable time series charts built with Svelte and LayerCake.",
 	"author": "Open Electricity",
