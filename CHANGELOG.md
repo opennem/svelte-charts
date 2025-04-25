@@ -1,5 +1,11 @@
 # @openelectricity/svelte-charts
 
+## 0.2.1
+
+### Patch Changes
+
+- bump
+
 ## 0.1.0
 
 ### Minor Changes

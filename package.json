@@ -1,6 +1,6 @@
 {
 	"name": "@openelectricity/svelte-charts",
-	"version": "0.1.0",
+	"version": "0.2.1",
 	"license": "MIT",
 	"description": "Reusable time series charts built with Svelte and LayerCake.",
 	"author": "Open Electricity",
@@ -26,7 +26,8 @@
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
-		"release": "npx changeset version"
+		"release": "npx changeset version",
+		"publish": "npm run build && npm publish"
 	},
 	"files": [
 		"dist",
