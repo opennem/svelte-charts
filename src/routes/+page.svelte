@@ -11,9 +11,8 @@
 		formatTick
 	} from './timeseries-data.js';
 
-	/** @typedef {import('$lib/utils/si-units').SiPrefix} SiPrefix */
-	/** @typedef {import('$lib/stores/chart.types').TimeSeriesData} TimeSeriesData */
-	/** @type {{ key: symbol, title: string, prefix: SiPrefix, displayPrefix: SiPrefix, allowedPrefixes: SiPrefix[], baseUnit: string, chartStyles: { chartHeightClasses: string } }} */
+	/** @typedef {import('$lib').TimeSeriesData} TimeSeriesData */
+	/** @type {import('$lib').ChartOptions} */
 	let initChartOptions = {
 		key: Symbol('power-energy-chart'),
 		title: 'Generation',

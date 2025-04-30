@@ -1,6 +1,6 @@
 <script>
-	/** @typedef {import('$lib/stores/chart.types').TimeSeriesData} TimeSeriesData */
-	/** @typedef {{ data: TimeSeriesData, key?: string }} ChartEvent */
+	/** @typedef {import('$lib').TimeSeriesData} TimeSeriesData */
+	/** @typedef {import('$lib').ChartEvent} ChartEvent */
 
 	import StackedAreaLineChart from '$lib/components/StackedAreaLineChart.svelte';
 	import ChartHeader from '$lib/components/ChartHeader.svelte';

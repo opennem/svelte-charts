@@ -1,5 +1,23 @@
 # @openelectricity/svelte-charts
 
+## 0.2.8
+
+### Patch Changes
+
+- update readme
+
+## 0.2.7
+
+### Patch Changes
+
+- add peerDep
+
+## 0.2.6
+
+### Patch Changes
+
+- export types
+
 ## 0.2.6
 
 ### Patch Changes
