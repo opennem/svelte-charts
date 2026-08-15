@@ -1,5 +1,11 @@
 # @openelectricity/svelte-charts
 
+## 0.2.9
+
+### Patch Changes
+
+- Add the official Svelte agent skills for project-local coding guidance.
+
 ## 0.2.8
 
 ### Patch Changes
